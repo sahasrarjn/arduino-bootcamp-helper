@@ -43,7 +43,7 @@ void loop() {
   // Calculate distance
   duration = pulseIn(echoPin, HIGH);
 
-  // Speed of sound in centimeters per microsecond: 0.0343 c/μS
+  // Speed of sound in centimeters per microsecond: 0.0343 cm/μS
   // S = v * t / 2        (why /2 ??)
   distance = (duration*.0343)/2;
   
